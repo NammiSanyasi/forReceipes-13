@@ -1,0 +1,14 @@
+.receipes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.receipe{
+    box-shadow: 5px 5px 5px black;
+    padding: 50px;
+}
+.receipe img
+{
+    height: 250px;
+    width: 250px;
+}
